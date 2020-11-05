@@ -75,20 +75,20 @@ nav {
         cursor: pointer;
     }
     
-    .hero-right {
+    .img-right {
         transform: translate(0%, 10%);
     }
 
-    .hero-left {
+    .img-left {
         transform: translate(0%, -10%);
     }
 }
 
-.hero:hover .hero-right {
+.hero:hover .img-right {
     transform: translate(0%, 0%);
 }
 
-.hero:hover .hero-left {
+.hero:hover .img-left {
     transform: translate(0%, 0%);
 }
 
@@ -108,12 +108,20 @@ nav {
     font-size: 28px;
     padding: 20px 0px;
     font-family: PopXtra;
-    color: #8BA28B;
+    color: #fff;
 }
 
 .details p {
     font-size: 24px;
     padding: 20px 0px 50px 0px;
+}
+
+.details a {
+    text-decoration: none;
+
+    :hover {
+        color: #8BA28B;
+    }
 }
 
 .pages {
@@ -215,6 +223,7 @@ nav {
     grid-template-columns: 5% 1fr 1fr 5%;
     justify-items: center;
     align-items: center;
+    transform: translateY(-100%);
 
     h3{
         font-size: 24px;
@@ -226,8 +235,13 @@ nav {
     }
 }
 
-.social-links {
-    
+.logo {
+    z-index: 2;
+}
+
+.menu {
+    z-index: 2;
+    cursor: pointer;
 }
 
 .contact {

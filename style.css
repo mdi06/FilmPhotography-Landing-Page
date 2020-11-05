@@ -202,22 +202,22 @@ nav img {
   cursor: pointer;
 }
 
-.hero .hero-right {
+.hero .img-right {
   -webkit-transform: translate(0%, 10%);
           transform: translate(0%, 10%);
 }
 
-.hero .hero-left {
+.hero .img-left {
   -webkit-transform: translate(0%, -10%);
           transform: translate(0%, -10%);
 }
 
-.hero:hover .hero-right {
+.hero:hover .img-right {
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
 }
 
-.hero:hover .hero-left {
+.hero:hover .img-left {
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
 }
@@ -240,12 +240,20 @@ nav img {
   font-size: 28px;
   padding: 20px 0px;
   font-family: PopXtra;
-  color: #8BA28B;
+  color: #fff;
 }
 
 .details p {
   font-size: 24px;
   padding: 20px 0px 50px 0px;
+}
+
+.details a {
+  text-decoration: none;
+}
+
+.details a :hover {
+  color: #8BA28B;
 }
 
 .pages {
@@ -377,6 +385,8 @@ nav img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 .nav-open h3 {
@@ -386,6 +396,15 @@ nav img {
 
 .nav-open p {
   font-size: 18px;
+}
+
+.logo {
+  z-index: 2;
+}
+
+.menu {
+  z-index: 2;
+  cursor: pointer;
 }
 
 .contact {
