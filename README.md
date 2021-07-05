@@ -2,7 +2,7 @@
  Simple portfolio layout designed and developed by me with help of Dev Ed.
 
 ### Screenshots from figma
-![alt text](https://github.com/mdikhtiaruk/cssPhotoPage/blob/main/images/Figma.png)
+![alt text](https://github.com/mdikhtiaruk/ykp/blob/main/assets/img/ykpgit.jpg)
 
 ## Technologies
 + Figma - on Windows 10
